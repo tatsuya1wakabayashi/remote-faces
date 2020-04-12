@@ -22,7 +22,7 @@ const SingleRoom: React.FC<Props> = ({ roomId, userId }) => {
   const getFaceInfo = useCallback(
     () => ({
       nickname: nicknameRef.current,
-      message: messageRef.current,
+      message: messageRef.current
     }),
     []
   );
